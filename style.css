@@ -1,0 +1,74 @@
+body,html{
+    margin: 0;
+    height: 100%;
+    font-size: 16px;
+    font-family: "Lato",sans-serif;
+    font-weight: 400;
+    line-height: 1.8em;
+    color: #666;
+}
+.pimg1{
+    background-image: url(./ffam.JPG);
+    min-height: 100%;
+}
+.pimg2{
+    background-image: url(./bro.JPG);
+    min-height: 400px;
+}
+.pimg3{
+    background-image: url(./1G0A9729.JPG);
+    min-height: 400px;
+}
+.pimg4{
+    background-image: url(./VJYR1750.JPG);
+    min-height: 400px;
+}
+.pimg5{
+    background-image: url(./_N_V2688.JPG);
+    min-height: 400px;
+}
+.pimg6{
+    background-image: url(./_N_V3021.JPG);
+    min-height: 400px;
+}
+.pimg7{
+    background-image: url(./VJYR1343.JPG);
+    min-height: 100%;
+}
+.pimg1,.pimg2,.pimg3,.pimg4,.pimg5,.pimg6,.pimg7{
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.ptext{
+    position: absolute;
+    /* right: 50%; */
+    top: 80%;
+    width: 100%;
+    text-align: center;
+    color: white;
+    font-size: 27px;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+}
+.textbg{
+    background: #666;
+    color: white;
+    padding: 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.section{
+    padding: 50px 80px;
+    text-align: center;
+}
+.section-light{
+    background-color: antiquewhite;
+    color: black;
+}
+.section-dark{
+    background-color: black;
+    color: antiquewhite;
+}
